@@ -15,6 +15,10 @@ Utiliza la **API de ExchangeRate-API** para obtener tasas de cambio en tiempo re
 - Manejador de errores personalizado para solicitudes a la API y monedas no soportadas.
 - Pruebas unitarias incluidas para verificar la funcionalidad del cliente, el servicio de tasas de cambio y la gestión de excepciones.
 
+## Notas
+- HttpClientFactory.java: Este archivo será implementado en el futuro para manejar la creación y configuración del cliente HTTP de forma reutilizable, mejorando la eficiencia del código.
+- ExchangeRate.java: En la futura implementación, esta clase modelará las tasas de cambio entre las monedas, haciendo que las conversiones sean más fácilmente rastreables y estructuradas.
+
 ## Requisitos
 - Java 17 o superior.
 - IntelliJ IDEA u otro IDE de tu preferencia.
@@ -25,3 +29,6 @@ Utiliza la **API de ExchangeRate-API** para obtener tasas de cambio en tiempo re
 1. Ejecuta la clase principal **`CurrencyConverterCLI`**.
 2. Selecciona una opción del menú para convertir entre las monedas disponibles.
 3. Ingresa la cantidad y observa el resultado.
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes ideas o mejoras, por favor abre un pull request o una issue.
